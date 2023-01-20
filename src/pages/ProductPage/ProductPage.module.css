@@ -104,6 +104,22 @@ input{
 height: 1rem;
 accent-color: red;
 }
+
+ .input_div{
+        
+        display: flex;
+        justify-content: flex-end;
+        padding: 0.5rem;
+        padding-right: 3rem;
+
+    }
+    .input_div input{
+        width: 31rem;
+        height: 1.7rem;
+        background: url('../../components/Navbar/images/search.png') no-repeat;
+        background-size: 1rem 1rem;
+        background-position: right 0.5rem center;
+    }
 .spinner {
     border: 3px solid #f3f3f3; 
     border-top: 3px solid #3498db;
@@ -177,6 +193,7 @@ accent-color: red;
        height: 25px;
        
     }
+   
     .open_button{
   
         display: flex;
